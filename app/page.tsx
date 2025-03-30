@@ -111,34 +111,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="px-4 py-20 bg-white">
-        <div className="container mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-amber-900 mb-12">{t("testimonialsTitle")}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-amber-50 p-6 rounded-xl shadow-md">
-              <p className="italic text-amber-800 mb-4">{t("testimonial1")}</p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full bg-amber-200 mr-4"></div>
-                <div>
-                  <h4 className="font-semibold text-amber-900">{t("testimonial1Name")}</h4>
-                  <p className="text-amber-700">{t("testimonial1Role")}</p>
-                </div>
-              </div>
-            </div>
-            <div className="bg-amber-50 p-6 rounded-xl shadow-md">
-              <p className="italic text-amber-800 mb-4">{t("testimonial2")}</p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full bg-amber-200 mr-4"></div>
-                <div>
-                  <h4 className="font-semibold text-amber-900">{t("testimonial2Name")}</h4>
-                  <p className="text-amber-700">{t("testimonial2Role")}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       <Footer />
     </div>
