@@ -128,7 +128,7 @@ export default function Dashboard() {
                   <span className="text-amber-600 text-2xl font-bold">AJ</span>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold">Parin</h3>
+                  <h3 className="text-lg font-semibold">Arun Jindal</h3>
                   <p className="text-sm text-muted-foreground">Volunteer since June 2023</p>
                   <div className="mt-2 flex space-x-2">
                     <Button size="sm" className="bg-amber-600 hover:bg-amber-700" asChild>
